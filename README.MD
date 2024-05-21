@@ -90,6 +90,11 @@ DEFI_CONTRACT_ADDRESS=""
 USDC_CONTRACT_ADDRESS=""
 ```
 
+### Тестируем уже задеплоенные
+```
+brownie test
+```
+
 ### Взаимодействие с контрактами
 ```
 brownie run scripts/interact.py --network sepolia
